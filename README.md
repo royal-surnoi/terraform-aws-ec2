@@ -95,3 +95,9 @@ module "backend" {
 ```
 
 ---
+
+##  updates
+
+| Name            | Type     | Default    | Description                         |
+| --------------- | -------- | ---------- | ----------------------------------- |
+| `iam_instance_profile` | `string` | `t2.micro` | EC2 instance type (validated)       |
