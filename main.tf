@@ -3,6 +3,7 @@ resource "aws_instance" "main" {
   instance_type          = var.instance_type
   vpc_security_group_ids = local.security_group_ids
   subnet_id              = var.subnet_id
+  iam_instance_profile = var.iam_instance_profile
 
   root_block_device {
     volume_size = var.volume_size

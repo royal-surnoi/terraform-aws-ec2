@@ -36,6 +36,7 @@ This Terraform module provisions an **AWS EC2 instance** with configurable optio
 | `instance_type` | `string` | `t2.micro` | EC2 instance type (validated)       |
 | `subnet_id`     | `string` | `null`     | Subnet ID to launch the instance in |
 | `volume_size`   | `number` | `20`       | EBS volume size in GB               |
+| `iam_instance_profile`   | `string` | `nothing`       | to attach role               |
 
 ---
 

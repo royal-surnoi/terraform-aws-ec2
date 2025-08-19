@@ -60,3 +60,8 @@ variable "script_file" {
   description = "Relative path to shell script file to copy"
   type        = string
 }
+
+variable "iam_instance_profile" {
+  type = string
+  default = ""
+}
