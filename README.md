@@ -98,6 +98,6 @@ module "backend" {
 
 ##  updates
 
-| Name            | Type     | Default    | Description                         |
+| update            | purpose     | name    | data                         |
 | --------------- | -------- | ---------- | ----------------------------------- |
-| `iam_instance_profile` | `string` | `t2.micro` | EC2 instance type (validated)       |
+| `iam_instance_profile` | `attach iam role to ec2` | `royal-1158` | `19-08-2025`      |
