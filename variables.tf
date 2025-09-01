@@ -6,8 +6,8 @@ variable "instance_type" {
   type    = string
   default = "t2.micro"
   validation {
-    condition     = contains(["t2.micro", "t2.small", "t2.medium", "t3.micro", "t3.small", "t3.medium", "t3a.micro", "t3a.small", "t3a.medium"], var.instance_type)
-    error_message = "Instance_type must be among 't2/t3/t3a.micro', 't2/t3/t3a.small' or 't2/t3/t3a.medium' as per project requirement"
+    condition     = contains(["t2.micro", "t2.small", "t2.medium", "t3.micro", "t3.small", "t3.medium", "t3a.micro", "t3a.small", "t3a.medium","t2.large","t2.xlarge"], var.instance_type)
+    error_message = "Instance_type must be among 't2/t3/t3a.micro', 't2/t3/t3a.small' or 't2/t3/t3a.medium t2.large and xlarge' as per project requirement"
   }
 }
 
